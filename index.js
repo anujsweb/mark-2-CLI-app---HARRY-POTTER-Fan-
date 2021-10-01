@@ -28,6 +28,9 @@ questionFive = {
 },
 ]
 
+var nameAnswer = readlineSync.question('What is your name?');
+console.log('Welcome ' + nameAnswer);
+
 for(var i=0;i<arr.length;i++)
   {
     var userAnswer = readlineSync.question(arr[i].question);
